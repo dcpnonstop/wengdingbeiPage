@@ -1,0 +1,28 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#div1{
+    margin: 1px auto;
+    width:1120px;
+    height: 120px;
+    position: relative;
+    /*border: 1px solid black;*/
+    /*background: red;*/
+    overflow: hidden;
+}
+#div1> ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+#div1> ul > li{
+    float: left;
+    width: 260px;
+    height: 112px;
+    list-style: none;
+
+}
